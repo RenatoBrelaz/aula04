@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: silver;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background: linear-gradient( green, black);
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  input{ 
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 70%;
+    position: inherit;
+}
+
+button{
+  background: linear-gradient(green, black);
+  border: none;
+  padding: 15px;
+  width: 70%;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  position: relative;
+}
